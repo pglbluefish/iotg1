@@ -1,0 +1,4 @@
+pglbluefish@otg1:/home/ubuntu/workspace (master) $ git push -u origin master
+pglbluefish@otg1:/home/ubuntu/workspace (master) $ git commit -m  "commit 6/9/2014 pl fix deleting readme"
+pglbluefish@otg1:/home/ubuntu/workspace (master) $ git commit -a  "commit 6/9/2014 pl fix deleting readme"
+pglbluefish@otg1:/home/ubuntu/workspace (master) $ git pull -u origin master
