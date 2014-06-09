@@ -1,0 +1,85 @@
+
+
+Hello from the development team at Alliance Research Group, have a great day!
+this file is a diary of various activities as server admin.
+All the best, Paul
+
+
+messages from support @c9.io
+Hi Fabian,
+
+Thanks for the explanation, very helpful. 
+no need to add me to beta at this time.
+
+Regards,
+Paul
+
+Cloud9 IDE Support, Jun 03 11:12:
+Hi Paul,
+in the new version currently in private beta we stop processes after 1 day of inactivity for free users and 1 week of inactivity for premium users. On the current backend processes are usually stopped a few hours after the last access. I can add you to the peta if you are interested.
+Best,
+Fabian
+
+Paul Ling, Jun 02 13:01:
+Hello, is there a default timeout or uptime limit  for running apps? 
+I thought I had left my app running last night and it was down this morning.
+I started it again ok now but was just wondering how long it should run before shutting down.
+thank you.
+
+other activities
+June 3, 2014, digital clock added, read about new html5 elements
+              added <meta refresh> to main index page, to keep site active and running.
+              
+ http://en.wikipedia.org/wiki/Tonicization   
+ 
+ http://www.bradburymusic.info/NBTHSMusicTheory/music-theory-online-guide/19_tonicization.pdf
+ 
+ 
+ redhat openshift
+ openshift.com  paul_ling email  *******6_****
+ 
+ app iotg1pglbluefish
+ 
+ http://en.wikipedia.org/wiki/Tonicization
+ Use of secondary harmonies[edit]
+Introducing altered tones melodically often produces 
+only a weak feeling of tonicization. Stronger tonicizations 
+are frequently achieved by borrowing not only pitches 
+from the tonicized key, but also chords 
+(known as "secondary chords" or "secondary harmonies").
+The most common such chord is the secondary dominant; 
+this is simply a chord that is dominant to the tonicized key
+and is usually one of the following: V, V7, viio (usually not in root position),
+or viio7 (often in root position). 
+In musical analysis (see diatonic functions), a secondary dominant is notated 
+with a slash separating the tonicized scale degree and the type of secondary dominant
+chord used. 
+
+For example, if the original tonic is C Major and a tonicization of F Major 
+(the subdominant and 4th scale degree of C Major) is desired, 
+one could use the V7 chord of F Major (which is C7) as a
+secondary dominant to approach F. 
+
+http://en.wikipedia.org/wiki/Modulation_(music)
+
+6/6/2014
+still unable to deploy app to openshift
+requested c9 support to enable my account on beta.
+
+set up github repo today 6/6/2014
+iotg1
+todo: push c9 app to github repo.
+Step 3: Push your commit
+So far, everything you've done has been in your local repository, meaning you still haven't done anything on GitHub yet. To connect your local repository to your GitHub account, you will need to set a remote for your repository and push your commits to it.
+More about remotes
+git remote add origin https://github.com/username/Hello-World.git
+# Creates a remote named "origin" pointing at your GitHub repository
+
+git push origin master
+# Sends your commits in the "master" branch to GitHub
+Tip: Notice that the path to your remote URL--Hello-World.git--matches the one that you created on GitHub. This is case sensitive, and important to keep the same.
+
+6/8/2014 signed in to beta.
+
+6/9 reading for ssh 
+http://lepidllama.net/blog/how-to-push-an-existing-cloud9-project-to-github/

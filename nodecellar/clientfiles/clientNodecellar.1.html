@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+author: PL
+</head>
+<body>
+ <script type="text/javascript">
+   
+    var lastmod = document.lastModified;     // get string of last modified date
+    var lastmoddate = Date.parse(lastmod);   // convert modified string to date
+    if (lastmoddate === 0) {               // unknown date (or January 1, 1970 GMT)
+       document.write("Last Modified: Unknown");
+       document.write("<br>");
+    } else {document.write("<br>");
+    document.write("Last Modified DT (server): " + lastmod);
+    document.write("<br>");
+    }
+    
+    var currentDate = new Date();
+	var day = currentDate.getDate();
+	var month = currentDate.getMonth() + 1;
+	var year = currentDate.getFullYear();
+	document.write("<b>Current DT (local): " + month + "/" + day + "/" + year + "</b>");
+	document.write("::")
+	
+	var currentTime = new Date();
+	var hours = currentTime.getHours();
+	var minutes = currentTime.getMinutes();
+
+	if (minutes < 10);
+	minutes = "0" + minutes;
+
+	document.write("<b> " + hours + ":" + minutes + " " + "</b>");
+    
+    
+  </script>
+
+<p>
+<a href="https://otg1-c9-pglbluefish.c9.io/docs/dailymessage.txt">dailymessage.txt</a> get Daily blog. This is a link to a nodecellar server on the World Wide Web.
+</p>
+
+<p>
+<a href="https://otg1-c9-pglbluefish.c9.io/clientfiles/clientNodecellar.html">indexCloud9.html</a> get new client html file. This is a link to a nodecellar server on the World Wide Web.
+</p>
+
+<p>
+<a href="https://otg1-c9-pglbluefish.c9.io/clientfiles/clientNodecellar_old.html">indexCloud9_old.html</a> get ***old*** client html file. This is a link to a nodecellar server on the World Wide Web.
+</p>
+
+   <p>
+<a href="https://otg1-c9-pglbluefish.c9.io/docs/Book1.htm">Book1.htm</a> This is a link to a nodecellar server on the World Wide Web.
+</p>
+
+   <p>
+<a href="https://otg1-c9-pglbluefish.c9.io/docs/National HCAHPS Percentiles(1).xls">National HCAHPS Percentiles(1).xls
+</p>
+
+   <p>
+<a href="https://otg1-c9-pglbluefish.c9.io/xmaslist/xmastest.txt">xmastest.txt</a> This is a link to a nodecellar server on the World Wide Web.
+
+</p>
+
+  <p>
+<a href="https://otg1-c9-pglbluefish.c9.io/routes/wines.js">the wines.js route js file</a> This is a link to a nodecellar server on the World Wide Web.
+
+</p>
+
+  <p>
+<a href="
+http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/"> tutorial</a>
+</p>
+
+
+ <FORM ENCTYPE="multipart/form-data" ACTION="https://otg1-c9-pglbluefish.c9.io/upload/" METHOD=POST>
+
+    File to process: <INPUT NAME="file" TYPE="file">
+
+    <INPUT TYPE="submit" VALUE="Send File">
+
+    </FORM>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,2 @@
+   console.log(req.url + " was accessed on: " + (myDate.getMonth()+1) +"|"+ myDate.getDate() +"|"+ myDate.getFullYear() +"|"+ myDate.getHours() +":"+myDate.getMinutes());  
+
