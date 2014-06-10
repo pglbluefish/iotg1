@@ -14,3 +14,12 @@ Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
 Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
 Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
 Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
+Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
+/ was accessed on: 6|9|2014|18:55
+Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
+/wines was accessed on: 6|9|2014|19:7
+Paul's request was received and will be processed by findAll
+/wines/xxx was accessed on: 6|9|2014|19:7
+msg received from Paul!..Retrieving wine: xxx
+/wines/paul was accessed on: 6|9|2014|19:7
+msg received from Paul!..Retrieving wine: paul

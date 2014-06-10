@@ -81,5 +81,19 @@ Tip: Notice that the path to your remote URL--Hello-World.git--matches the one t
 
 6/8/2014 signed in to beta.
 
-6/9 reading for ssh 
+deleted the _1 account it's a duplicate. now original account is working fine in beta.
+
+6/9 reading for git & ssh 
 http://lepidllama.net/blog/how-to-push-an-existing-cloud9-project-to-github/
+done! c9 account linked to github, can now add, commit, push to github 
+
+6/9 reading for openshift
+https://www.openshift.com/blogs/look-ma-no-hands-developing-for-the-cloud-in-the-cloud-with-cloud9-ide
+
+6/10 challenging pushing to openshift, will try rhc 
+https://www.openshift.com/blogs/using-rhc-to-manage-paas-apps
+https://www.openshift.com/developers/rhc-client-tools-install
+
+installed rhc on cloud 9 in ubuntu directory
+sudo gem install rhc
+rhc setup
