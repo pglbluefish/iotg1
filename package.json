@@ -25,8 +25,8 @@
     "email": "paul_ling@bellsouth.net",
     "url": "http://www.openshift.com/"
   },
-  "main": "server_express40_bk2.js",
+  "main": "server_express40_bk2_OShift.js",
   "scripts": {
-    "start": "node server_express40_bk2.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
+    "start": "node server_express40_bk2_OShift.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
   }  
 }

@@ -56,3 +56,5 @@ Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
 Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
 /wines was accessed on: 6|11|2014|18:52
 Paul's request was received and will be processed by findAll
+Wed Jun 11 2014 20:15:23 GMT+0000 (UTC) Server is listening on port 8080
+Hello Paul cloud !!! server up and Listening at host:port ...0.0.0.0:8080
