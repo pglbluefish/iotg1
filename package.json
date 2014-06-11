@@ -1,0 +1,31 @@
+{
+    "name": "wine-cellar",
+    "description": "Wine Cellar Application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "~4.0.0",
+        "morgan": "~1.0.0",
+        "body-parser": "~1.0.0",
+        "multer": "~0.0.7",
+        "method-override": "~1.0.0",
+        "mongodb": "*",
+        "mondgoose":"*"
+    },
+    "keywords": [
+    "Cloud 9",
+    "c9",
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+   "author": {
+    "name": "Paul Ling",
+    "email": "paul_ling@bellsouth.net",
+    "url": "http://www.openshift.com/"
+  },
+  "main": "server_express40_bk2.js"
+    
+}
+
