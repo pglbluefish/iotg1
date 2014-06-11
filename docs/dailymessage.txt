@@ -894,7 +894,24 @@ rhc ssh works and goes to the new repo.
 
 git push to openshift.
 
+set package.json "main" to point to server_express50_bk2.js.
+didn't work then read this...
+https://coderwall.com/p/wmyqbw
+Most Google searches will bring back that the main parameter in your package.json would need to be changed to the correct file name, although after testing several times, I could not get it to work. Basically, I would deploy the application and after waiting about 5 minutes, my site would be still sitting at a 503 "Application Unavailable" error screen. Checking through SSH, node isn't even running!
 
+There is a hidden gem within OpenShift that helps remedy this issue on deploy. In your pacakge.json file, you can add a snippet to set the command to be ran on deploy. Once I added this, deployed the application, I had a working website!
+
+"scripts": {
+    "start": "node app.js --websocket-port=$OPENSHIFT_NODEJS_PORT --log-level=1"
+}
+
+also read this about environment variables 
+http://stackoverflow.com/questions/20974094/openshift-node-js-error-listen-eacces
+var ipaddress = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+server.listen( port, ipaddress, function() {
+    console.log((new Date()) + ' Server is listening on port 8080');
+});
 
 
 
