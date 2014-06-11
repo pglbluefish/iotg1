@@ -30,9 +30,7 @@ other activities
 June 3, 2014, digital clock added, read about new html5 elements
               added <meta refresh> to main index page, to keep site active and running.
               
- http://en.wikipedia.org/wiki/Tonicization   
  
- http://www.bradburymusic.info/NBTHSMusicTheory/music-theory-online-guide/19_tonicization.pdf
  
  
  redhat openshift
@@ -885,6 +883,16 @@ push to github recreated repo with new clean structure!
 ****no need to clean up just push to it.
 next push to openshift....
 did not complete 100%....better directory structure tho.
+
+decided to start clean.
+deleted the openshift app and created new with same name iotg1pglbluefish
+new ssh key
+git remote rm openshift  (deleted it)
+git remote add openshift with the new ssh key information from openshift.
+
+rhc ssh works and goes to the new repo.
+
+git push to openshift.
 
 
 
