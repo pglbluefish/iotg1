@@ -1,0 +1,21 @@
+http://en.wikipedia.org/wiki/Tonicization
+ Use of secondary harmonies[edit]
+Introducing altered tones melodically often produces 
+only a weak feeling of tonicization. Stronger tonicizations 
+are frequently achieved by borrowing not only pitches 
+from the tonicized key, but also chords 
+(known as "secondary chords" or "secondary harmonies").
+The most common such chord is the secondary dominant; 
+this is simply a chord that is dominant to the tonicized key
+and is usually one of the following: V, V7, viio (usually not in root position),
+or viio7 (often in root position). 
+In musical analysis (see diatonic functions), a secondary dominant is notated 
+with a slash separating the tonicized scale degree and the type of secondary dominant
+chord used. 
+
+For example, if the original tonic is C Major and a tonicization of F Major 
+(the subdominant and 4th scale degree of C Major) is desired, 
+one could use the V7 chord of F Major (which is C7) as a
+secondary dominant to approach F. 
+
+http://en.wikipedia.org/wiki/Modulation_(music)

@@ -1,35 +1,30 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
-  "keywords": [
+    "name": "wine-cellar",
+    "description": "Wine Cellar Application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "~4.0.0",
+        "morgan": "~1.0.0",
+        "body-parser": "~1.0.0",
+        "multer": "~0.0.7",
+        "method-override": "~1.0.0",
+        "mongodb": "*",
+        "mondgoose":"*"
+    },
+    "keywords": [
+    "Cloud 9",
+    "c9",
     "OpenShift",
     "Node.js",
     "application",
     "openshift"
   ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
+   "author": {
+    "name": "Paul Ling",
+    "email": "paul_ling@bellsouth.net",
     "url": "http://www.openshift.com/"
   },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
-
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-
-  "dependencies": {
-    "express": "~3.4.4"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
-
-  "private": true,
-  "main": "server.js"
+  "main": "server_express40_bk2.js"
+    
 }
