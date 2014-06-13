@@ -147,12 +147,16 @@ h6 {
 }
 
 #header .top_banner{
-	background:url(../images/nsc_8211ofv.jpg) no-repeat left top;
+	background:url(../images/nsc_8211ofv.jpg) no-repeat right top;
 	height:190px;
 	padding:60px 95px 0 95px;
 	border:#6C8286 solid 1px;
 	margin-bottom:10px;
 }
+
+
+
+
 
 #header h1{
 	font-size:32px;
