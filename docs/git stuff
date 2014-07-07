@@ -1,0 +1,4 @@
+git add .
+git commit
+git push origin master    //push to github
+git push openshift master   //push to openshift

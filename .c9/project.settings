@@ -19,5 +19,12 @@
         "@path": "/.c9/builders",
         "@saveall": true,
         "@builder": "auto"
+    },
+    "share": {
+        "@preview": false,
+        "@app": false
+    },
+    "debug": {
+        "@sourcemaps": "auto"
     }
 }

@@ -1,5 +1,3 @@
-
-
 Hello from the development team at Alliance Research Group, have a great day!
 this file is a diary of various activities as server admin.
 All the best, Paul

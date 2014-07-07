@@ -1,0 +1,21 @@
+[
+  { "_id": "joe",
+   "name": "Joe Bookreader",
+   "address": {
+              "street": "123 Fake Street",
+              "city": "Faketon",
+              "state": "MA",
+              "zip": "12345"
+            }
+  }
+   
+  { "_id": "pat",
+   "name": "Pat Moviegoer",
+   "address": {
+              "street": "444 Lake Drive",
+              "city": "Gotham",
+              "state": "NY",
+              "zip": "52345"
+            }
+  }         
+]

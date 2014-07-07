@@ -1,0 +1,39 @@
+mongo stuff
+https://docs.c9.io/setting_up_mongodb.html?utm_source=facebook&utm_medium=facebook&utm_campaign=smwk16
+created the mongod start script with parameters
+to run from project workspace: ./mongod
+to run shell: mongo  
+to shutdown mongo server: ./mongod -shutdown
+
+import data ( note that sample1.json is an array [] )
+mongoimport --db test --collection sample1 --file ./json/sample1.json --jsonArray
+
+
+db.collection.remove()
+Removes documents from a collection.
+
+db.products.find( { qty: { $gt: 25 } } )
+
+db.bios.find( { _id: 5 } )
+
+
+**for subdocuments use dot notation
+db.sample1.find( { "address.zip":"52345" }   )
+db.sample1.find( { "address.city":"Gotham" }   )
+
+***contains
+db.users.findOne({"username" : {$regex : ".*son.*"}});
+db.sample1.findOne({"name" : {$regex : ".*vie.*"}});
+db.sample1.find({"name" : {$regex : ".*vie.*"}});
+
+db.collection.find({"items.old.name": "Paul" })
+
+db.bios.find(
+   {
+     "name.first": "Yukihiro",
+     "name.last": "Matsumoto"
+   }
+)
+
+http://docs.mongodb.org/manual/reference/mongo-shell/
+http://docs.mongodb.org/manual/tutorial/getting-started/
