@@ -2,3 +2,12 @@ git add .
 git commit
 git push origin master    //push to github
 git push openshift master   //push to openshift
+
+large size errer failed to push to github
+solution:
+As rlb.usa noted, Github has added a file size limit that prevents you from pushing files > 100MB. You tried to remove the file in a new commit and tried to push that. That fails, because you are not just pushing that last commit, but also three others. Those three commits contain versions of cron_log that are 141MB and 126MB in size. They cause your push to fail.
+
+To fix that, you have two options:
+
+Run git rebase -i origin/master, set every commit to edit and remove the file in each with git commit --amend.
+Use the BFG Repo-Cleaner to clean all your history.
